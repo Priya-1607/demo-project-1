@@ -3,6 +3,7 @@ const $=require('jquery')
 $.DataTable=require('datatables.net')
 export class Table extends Component<any, any>{
     public el: any;
+    private $el: any;
 
     componentDidMount() {
 

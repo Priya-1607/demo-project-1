@@ -15,7 +15,7 @@ import {styled} from "@mui/material/styles";
 // }));
 
 
-function Dashboard(props) {
+function Dashboard(props:any) {
     return (
         <div>
             <Typography variant={"h4"}>Dashboard</Typography>

@@ -24,7 +24,7 @@ import {Chart} from "chart.js";
 import Barchart from "@/app/components/Barchart";
 import {useState} from "react";
 import {UserData} from "@/app/components/data";
-import Linechart from "@/app/components/navigation/LineChart";
+import Linechart from "@/app/components/LineChart";
 import {UserDataLine} from "@/app/components/LineChartData";
 import {Table} from "@/app/components/Table";
 import DataTableBox from "@/app/components/DataTableBox";
@@ -147,7 +147,7 @@ const [userData,setUserdata]=useState({labels:UserData.map((data)=>data.month),d
         }]})
     return (
         <Box sx={{ display: 'flex' }}  >
-            <CssBaseline style={{backgroundColor:"#212529"}}/>
+            <CssBaseline/>
             <AppBar position="fixed" open={open} style={{backgroundColor:"#212529"}}>
                 <Toolbar>
                     <Typography variant="h6" noWrap component="div">
