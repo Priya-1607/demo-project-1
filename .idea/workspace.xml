@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0606cbc6-595f-4bd3-8030-a91e0b000a10" name="Changes" comment="new commit1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/newapp/app/dashboard/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685777891851</updated>
-      <workItem from="1685777894225" duration="55318000" />
+      <workItem from="1685777894225" duration="56330000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1685891967714</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685896694500</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new commit1">
+      <created>1685897417189</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685897417189</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -234,10 +234,10 @@ const [userData,setUserdata]=useState({labels:UserData.map((data)=>data.month),d
                 <DrawerHeader  />
                <Dashboard/>
                 <Box sx={{display:"flex",gap:2}}>
-                <Box sx={{width:720,mt:5, border: '1px solid grey',borderRadius:"10px" }}>  <Box sx={{p:'1rem',borderBottom:'1px solid grey',backgroundColor:"#dee2e6",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}}><Typography varient={"body2"}>Line Chart Example</Typography></Box><Box style={{width:700}}> <Linechart chartData={userDataLine}/></Box></Box>
-                <Box sx={{width:720,mt:5, border: '1px solid grey',borderRadius:"10px" }}>  <Box sx={{p:'1rem',borderBottom:'1px solid grey',backgroundColor:"#dee2e6",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}}><Typography varient={"body2"}>Bar Chart Example</Typography></Box><Box style={{width:700}}> <Barchart chartData={userData}/></Box></Box>
+                <Box sx={{width:720,mt:5, border: '1px solid grey',borderRadius:"10px" }}>  <Box sx={{p:'1rem',borderBottom:'1px solid grey',backgroundColor:"#dee2e6",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}}><Typography variant={"body2"}>Line Chart Example</Typography></Box><Box style={{width:700}}> <Linechart chartData={userDataLine}/></Box></Box>
+                <Box sx={{width:720,mt:5, border: '1px solid grey',borderRadius:"10px" }}>  <Box sx={{p:'1rem',borderBottom:'1px solid grey',backgroundColor:"#dee2e6",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}}><Typography variant={"body2"}>Bar Chart Example</Typography></Box><Box style={{width:700}}> <Barchart chartData={userData}/></Box></Box>
                 </Box>
-                <Box sx={{width:"100%",height:"45%",mt:5, border: '1px solid grey',borderRadius:"10px" }}> <Box sx={{p:'1rem',borderBottom:'1px solid grey',backgroundColor:"#dee2e6",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}}><Typography varient={"body2"}>DataTable Example</Typography></Box><Box style={{width:"100%",height:"50%"}}>
+                <Box sx={{width:"100%",height:"45%",mt:5, border: '1px solid grey',borderRadius:"10px" }}> <Box sx={{p:'1rem',borderBottom:'1px solid grey',backgroundColor:"#dee2e6",borderTopLeftRadius:"10px",borderTopRightRadius:"10px"}}><Typography variant={"body2"}>DataTable Example</Typography></Box><Box style={{width:"100%",height:"50%"}}>
                     <Box sx={{p:"10px"}}><DataTableBox /></Box></Box></Box>
 
             </Main>
